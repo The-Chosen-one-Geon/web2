@@ -1,0 +1,37 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+h1, h2, h3, h4, .logo-font {
+    font-family: 'Sunflower', sans-serif;
+}
+/* 네비게이션 영역 */
+.nav-link:hover, 
+.nav-link.active {
+    color:darkblue !important;
+    font-weight: bold;
+}
+/* 헤더영역 */
+#headerCarousel img {
+    filter: grayscale(50%);
+}
+#headerCarousel:hover img {
+    filter: grayscale(0%);
+}
+/* 포트폴리오 섹션 */
+.card-img-top {
+    transition: transform .7s;
+}
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+.banner {
+    background-image: url(image/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contact-bg {
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.2)), url(image/bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
